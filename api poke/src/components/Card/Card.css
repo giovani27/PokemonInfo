@@ -1,0 +1,33 @@
+.card{
+    background: gray  url(../../img/brick.png);
+
+
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cardimg{
+    border: black solid 3px;
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: 9pt;
+    text-align: center;
+    transform: scale(0.9);
+    transition: ease-out 1s;
+    
+}
+.imgcard{
+    width: 200px;
+    height: 200px;
+    background: black  url(../../img/brick.png);
+
+
+}
+.cardimg:hover {
+    transform: scale(1.1);
+    color: red;
+    transition: ease 1s;
+
+}

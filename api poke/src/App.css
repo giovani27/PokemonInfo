@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+.status-imgheader{
+  width: 30%;
+}
+.Status-Header{
+  background: blue  url(./img/brick.png);
+display: flex;
+justify-content: center;
+}
+
+body{
+  background: gray  url(./img/brick.png);
+color: white;
+margin: 0;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.page{
+  height: 100vh;
+}
+.inputsummoner-div{
+  width: inherit;
+  height: 70px;
+
+}
+.inputsummoner-input{
+  color: white;
+  background-color: black;
+margin-left: 40%;
+   margin-top: 30px;
+}
+
+
+
+

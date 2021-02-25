@@ -1,0 +1,247 @@
+.Status-Main{
+    background: #fff  url(../../img/img2.png);
+}
+.status-imgheader{
+    width: 30%;
+}
+.Status-Header{
+    background: blue  url(../../img/brick.png);
+display: flex;
+justify-content: center;
+}
+.Status-Meio{
+    display: flex;
+    flex-wrap:wrap;
+}
+.Status-Name{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+}
+.Status-Esquerdo{
+    width: 40%;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+.Status-Direita{
+    width: 40%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: black;
+}
+.Status-Imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status-Img{
+ width: 80%;
+
+}
+.Status-DireitaBaixo{
+    color: black;
+    width: 40%;
+    height: 350px;
+    margin-left: 50px;
+    background: gray  url(../../img/brick.png);
+    border: black solid 3px;
+    margin-top: 20px;
+}
+.Status-EsquerdaBaixo{
+    
+    width: 40%;
+    height: 350px;
+    background: gray  url(../../img/brick.png);
+    border: black solid 3px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.Status-Baixo{
+    width: 80%;
+    height: 450px;
+    background: gray  url(../../img/brick.png);
+    border: black solid 3px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+.status-FracoContra , .status-Tipo, .status-ForteContra {
+    display: flex;
+
+    }
+
+.status-ForteContra p , .status-Tipo  p , .status-FracoContra p  {
+    margin-left: 10px;
+    font-size: 14pt;
+    margin-top: 40px;
+}
+.nome-ForteContra{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.GRASS{
+    background-color: green;
+   border-radius: 50px;
+}
+.POISON{
+    background-color: purple;
+   border-radius: 50px;
+}
+.GROUND{
+    background-color: brown;
+   border-radius: 50px;
+}
+.ROCK{
+    background-color: gray;
+   border-radius: 50px;
+}
+.WATER{
+    background-color: blue;
+   border-radius: 50px;
+}
+.FAIRY{
+    background-color: pink;
+   border-radius: 50px;
+}
+.BUG{
+    background-color: rgb(43, 233, 43);
+   border-radius: 50px;
+}
+.FIRE{
+    background-color: red;
+   border-radius: 50px;
+}
+.ICE{
+    background-color:rgb(130, 240, 240);
+   border-radius: 50px;
+}
+.FLYING{
+    background-color: white;
+   border-radius: 50px;
+}
+.PSYCHIC{
+    background-color: rgb(211, 14, 250);
+   border-radius: 50px;
+}
+.ELECTRIC{
+    background-color: yellow;
+   border-radius: 50px;
+}
+.STEEL{
+    background-color: rgb(161, 117, 117);
+   border-radius: 50px;
+}
+.FIGHTING{
+    background-color: rgb(83, 49, 49);
+   border-radius: 50px;
+}
+.GHOST{
+    background-color:rgb(75, 67, 185);
+   border-radius: 50px;
+}
+.DARK{
+    background-color:rgb(28, 24, 83);
+   border-radius: 50px;
+}
+.DRAGON{
+    background-color:rgb(30, 189, 218);
+    border-radius: 50px;
+}
+.Status-DireitaText{
+font-size: 15pt;
+margin-top: 5px;
+margin-left: 5px;
+}
+.Status-DireitaConteudo{
+    display: flex;
+    margin-top: 50px;
+    background: rgb(81, 81, 241)  url(../../img/brick.png);
+    border-radius: 5px;
+    width: 60%;
+    height: 60%;
+    margin-left: 100px;
+
+
+}
+.Status-DireitaConteudoE h3{
+ margin-left: 10px;
+ color: white;
+    
+}
+.Status-DireitaConteudoD h3{
+    margin-left: 125px;
+    color: white;
+}
+.Status-DireitaHeight , .Status-DireitaWeight {
+    font-weight: bold;
+ text-align: center;
+}
+.Status-DireitaCategiria, .Status-DireitaAbility {
+    font-weight: bold;
+ text-align:right;
+}
+.Status-EsquerdaBaixo{
+    display: flex;
+}
+.statusBarEsquerda{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+.statusBarDireita{
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+.First-Evo{
+margin-left: 20px;
+display: flex;
+margin-top: 50px;
+
+}
+.Evo-Img1,.Evo-Img2,.Evo-Img3 {
+    background-color: #616161;
+    border-radius: 50%;
+    border:white solid 5px;
+
+
+}
+
+.Evo-Img2{
+    margin-top: 10px;
+}
+
+
+.divFierEvo p , .divSecondEvo p , .divTercEvo p{
+    font-size: 10pt;
+    color: black ;
+     text-align: center;
+    font-weight: bold;
+}
+.Second-Evo{
+    display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 50px;
+
+
+}
+.Terceiro-Evo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.navigatenext{
+    
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
